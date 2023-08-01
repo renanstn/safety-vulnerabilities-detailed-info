@@ -2,7 +2,7 @@
 
 ## Descrição
 
-O objetivo deste projeto é pegar o output do comando `safety check`, extrair o
+O objetivo deste projeto é, a partir do link de detalhes de uma vulnerabilidade obtido no output do comando `safety check`, extrair o
 link que detalha cada vulnerabilidade, acessar o link, e extrair da página o
 **título** e a **classificação** delas, no seguinte formato:
 

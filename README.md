@@ -2,19 +2,12 @@
 
 ## Descrição
 
-O objetivo deste projeto é, a partir do link de detalhes de uma vulnerabilidade obtido no output do comando `safety check`, extrair o
-link que detalha cada vulnerabilidade, acessar o link, e extrair da página o
-**título** e a **classificação** delas, no seguinte formato:
+O objetivo deste projeto é, a partir do link de detalhes de uma vulnerabilidade
+obtido no output do comando `safety check --full-report --output text`, extrair
+da página o **título** e a **classificação** dela, no seguinte formato:
 
 ```
 - CVE-2022-23491 - HIGH
-- CVE-2023-24816 - HIGH
-- CVE-2020-25626 - MEDIUM
-- CVE-2023-32681 - MEDIUM
-- CVE-2022-40896 - MEDIUM
-- CVE-2022-34265 - CRITICAL
-- CVE-2023-31047 - CRITICAL
-...
 ```
 
 ## Exemplo de uso
